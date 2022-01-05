@@ -53,17 +53,17 @@ source .devops/bin/activate
 **Updates done:**
   1. Deliverables are dded to https://github.com/abhishek-raghav08/DevOps_Microservice/tree/master
   2. updated files are:
-        docker_out.txt      : TASK 3 contains the log information by running app.py in docker. 
-        kubernetes_out.txt  : Contains the log information by running app.py in docker.
-        run_docker.sh        : Task 2: script written to docker image and run flask app.
-        run_kubernetes.sh   : Task 6: updates to "Deploy docker the Kubernetes"
-        upload_docker.sh    : Task 4- updated for "Upload your Docker image"
-        app.py              : Task 3: updated to display prediction.
-        README.md           : Updated with CIrcle CI batch, update fiel information and instructions to run the script.
+ *docker_out.txt      : TASK 3 contains the log information by running app.py in docker. 
+ *kubernetes_out.txt  : Contains the log information by running app.py in docker.
+ *run_docker.sh        : Task 2: script written to docker image and run flask app.
+ *run_kubernetes.sh   : Task 6: updates to "Deploy docker the Kubernetes"
+ *upload_docker.sh    : Task 4- updated for "Upload your Docker image"
+ *app.py              : Task 3: updated to display prediction.
+ *README.md           : Updated with CIrcle CI batch, update fiel information and instructions to run the script.
  
 **Instructions:**
 Task 1: Complete the Dockerfile
-	1. dockerfile was completed and tested (make lint) using instructions given. I have used example given during the 		course to build the docker file.
+	1. dockerfile was completed and tested (make lint) using instructions given. I have used example given during the course to build the docker file.
 
 Task 2: Run a Container & Make a Prediction
 	1. run_docker.sh was updated before running. To build docker image and run flask app
